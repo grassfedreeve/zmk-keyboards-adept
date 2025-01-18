@@ -4,7 +4,7 @@ This repository contains the shield files for the [AdeptBLE](https://github.com/
 
 ## Usage
 
-Edit your west.yml file found in your zmk-config's config directory to add the akohekohe module. Example:
+Edit your west.yml file found in your zmk-config's config directory to add the adept module. Example:
 
 ```
 manifest:
@@ -13,6 +13,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: grassfedreeve
       url-base: https://github.com/grassfedreeve
+    - name: badjeff
+      url-base: https://github.com/badjeff
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -21,7 +23,11 @@ manifest:
     - name: zmk-keyboards-adept
       remote: grassfedreeve
       revision: main
+    - name: zmk-pmw3610-driver
+      remote: badjeff
+      revision: main
   self:
     path: config
 ```
 Once you have the module added to your west.yml you can then build firmware as if it was in your config's shield directory or in ZMK main.
+
