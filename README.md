@@ -6,7 +6,7 @@ Using older inorichi driver, main has been moved to use [badjeff's driver](https
 
 ## Usage
 
-Edit your west.yml file found in your zmk-config's config directory to add the akohekohe module. Example:
+Edit your west.yml file found in your zmk-config's config directory to add the adept module. Example:
 
 ```
 manifest:
