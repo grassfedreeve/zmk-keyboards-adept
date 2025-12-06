@@ -1,9 +1,24 @@
 if SHIELD_ADEPT
 
 config ZMK_KEYBOARD_NAME
-    default "adept"
-
-endif
+    default "Adept"
 
 config SPI
-	default y
+    default y
+
+config INPUT
+    default y
+
+config ZMK_POINTING
+    default y
+
+config BT_DEVICE_APPEARANCE
+    default 962
+
+config PMW3610
+    default y
+
+config PMW3610_SMART_ALGORITHM
+    default y
+
+endif
